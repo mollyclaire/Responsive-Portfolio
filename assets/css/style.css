@@ -49,6 +49,14 @@ body {
   h3 {
     font-size: 22px;
   }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: white;
+  }
   
   /* header */
   
@@ -164,6 +172,7 @@ body {
     line-height: 30px;
     color: #ffffff;
     text-align: center;
+    text-decoration: none;
     background: #4aaaa5;
     border-bottom: 0;
   }
@@ -249,6 +258,9 @@ body {
     }
     nav {
         margin-right: 30px;
+    }
+    .work {
+      width: 
     }
 
   /* for screens smaller than 640px */
