@@ -96,7 +96,7 @@ body {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #999;
+    color: #999 !important;
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
@@ -224,6 +224,10 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+  }
+
+  p a {
+    color: #4aaaa5 !important;
   }
 
   /* media queries*/ 
